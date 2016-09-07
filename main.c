@@ -6,7 +6,6 @@ int main(void)
 	int i, num;
 	int *a;
 
-	/* @@@ write your code below @@@ */
 	
 	printf("配列の要素数の入力："); 
 	scanf("%d", &num);
