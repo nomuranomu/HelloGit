@@ -1,8 +1,9 @@
 /**
- * [ƒvƒƒOƒ‰ƒ~ƒ“ƒOƒhƒŠƒ‹02‰ğ“š—á]
- * 100‚æ‚è¬‚³‚¢‘f”‚Ì‡Œv’l‚ğƒRƒ“ƒ\[ƒ‹‚Öo—Í‚·‚éƒvƒƒOƒ‰ƒ€‚ğì¬‚µ‚È‚³‚¢B
+ * [ãƒ—ãƒ­ã‚°ãƒ©ãƒŸãƒ³ã‚°ãƒ‰ãƒªãƒ«02è§£ç­”ä¾‹]
+ * 100ã‚ˆã‚Šå°ã•ã„ç´ æ•°ã®åˆè¨ˆå€¤ã‚’ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã¸å‡ºåŠ›ã™ã‚‹ãƒ—ãƒ­ã‚°ãƒ©ãƒ ã‚’ä½œæˆã—ãªã•ã„ã€‚
  */
 #include <stdio.h>
+
 
 #define FALSE 0
 #define TRUE 1
@@ -20,7 +21,7 @@ int main(void)
 
 void print_prime_number(void){
 
-	char primeNumbers[MAXIMUM] = {0};/* ‘f””»’èŒ‹‰Ê */
+	char primeNumbers[MAXIMUM] = {0};/* ç´ æ•°åˆ¤å®šçµæœ */
 	int i, k, sum;
 	
 	for (i = 2; i < MAXIMUM; i++)
@@ -28,7 +29,7 @@ void print_prime_number(void){
 		primeNumbers[i] = TRUE;
 	}
 
-	/* ƒGƒ‰ƒgƒXƒeƒlƒX‚Ìâ¿‚É‚æ‚èA‘f”‚Ì‡Œv’l‚ğ‹‚ß‚Ü‚·B */
+	/* ã‚¨ãƒ©ãƒˆã‚¹ãƒ†ãƒã‚¹ã®ç¯©ã«ã‚ˆã‚Šã€ç´ æ•°ã®åˆè¨ˆå€¤ã‚’æ±‚ã‚ã¾ã™ã€‚ */
 	for (i = 2; i * i <= MAXIMUM; i++)
 	{
 		if (primeNumbers[i] == TRUE)
